@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WelcomeAll.HelloPage">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+      <Button x:Name="bttChangeName"  Clicked="OnButtonClicked" Text="Find Device!" /> 
+      <StackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand" x:Name="stlDevices">
+        
+      </StackLayout>
+      <StackLayout IsVisible="false" x:Name="stlDir" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+        <Button Text="UP"></Button>
+        <Button Text="DOWN"></Button>
+        <Button Text="LEFT"></Button>
+        <Button Text="RIGHT"></Button>
+      </StackLayout>
+    </StackLayout>
+</ContentPage>
